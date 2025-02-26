@@ -10,7 +10,13 @@ Runs on Ios and Android using a single code base.
 ![image](https://github.com/user-attachments/assets/4af2bf80-748f-4ea9-af6b-d5040bf43069)
 
 It dosn't need react-dom, because it does't render to a browser. Use components like View and Text
+which map to Native components.
 ![image](https://github.com/user-attachments/assets/2df3d090-2379-427a-a212-0bd9c11c6f9c)
+
+You also get access to the native API's like the camerea, the photos, location services, push notifications.
+Does this by "The Bridge"
+
+![image](https://github.com/user-attachments/assets/e5a742fc-fb09-4a61-a42c-f9178fba8d98)
 
 
 
