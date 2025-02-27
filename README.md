@@ -22,8 +22,23 @@ Does this by "The Bridge"
 
 
 
-## Setup using Expo
+## Setup using Expo 
+You can use a dev server, simulator, or expp Go app. 
+ You can view:
+1.  In browser (uses react native web)
+2.  Using a iOS simulator on a Mac and have to have xcode installed
+3.  Using an Android simultator, install android studio,
+4.  On a mobile device, install Expo Go. Scan a QR code.
+
+   
 https://reactnative.dev/
 Need to run:
 
-    npx create-expo-app@latest
+    npx create-expo-app@latest notes=app
+
+To clean up and reset the project, and remove the original boiler plate run:
+        
+        npm run reset-project
+
+    
+
