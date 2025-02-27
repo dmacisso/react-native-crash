@@ -40,5 +40,20 @@ To clean up and reset the project, and remove the original boiler plate run:
         
         npm run reset-project
 
+     Do you want to move existing files to /app-example instead of deleting them? 
+  (Y/n): n
+  ❌ /app deleted.       
+  ❌ /components deleted.
+  ❌ /hooks deleted.
+  ❌ /constants deleted.
+  ❌ /scripts deleted.
+  
+  📁 New /app directory created.
+  📄 app/index.tsx created.
+  📄 app/_layout.tsx created.
+  
+  ✅ Project reset complete. Next steps:
+  1. Run `npx expo start` to start a development server.
+  2. Edit app/index.tsx to edit the main screen.
     
 
