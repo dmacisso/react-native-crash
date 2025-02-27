@@ -55,5 +55,8 @@ To clean up and reset the project, and remove the original boiler plate run:
      ✅ Project reset complete. Next steps:
      1. Run `npx expo start` to start a development server.
      2. Edit app/index.tsx to edit the main screen.
-    
+
+  ### Common Components
+  ![image](https://github.com/user-attachments/assets/93e8c65e-4af7-4751-83fe-66cf447a00b2)
+
 
