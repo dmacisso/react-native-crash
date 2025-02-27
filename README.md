@@ -22,3 +22,8 @@ Does this by "The Bridge"
 
 
 
+## Setup using Expo
+https://reactnative.dev/
+Need to run:
+
+    npx create-expo-app@latest
