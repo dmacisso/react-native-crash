@@ -107,6 +107,11 @@ check required
 
 ![image](https://github.com/user-attachments/assets/3fdd61dd-2433-4493-b4c2-951fa301011a)
 
+The only other attribute is a createdAt filed, chose datetime field
+
+![image](https://github.com/user-attachments/assets/2c243f62-8b1e-4335-864d-9f2170d5306a)
+
+
 
 
 
