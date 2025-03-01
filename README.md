@@ -111,6 +111,12 @@ The only other attribute is a createdAt filed, chose datetime field
 
 ![image](https://github.com/user-attachments/assets/2c243f62-8b1e-4335-864d-9f2170d5306a)
 
+Now set the permission.
+Go to collecion..  => settings. scroll to permissions.. click +   For now. select "any" select create, read, update, and delete.
+
+![image](https://github.com/user-attachments/assets/89ef1044-acd8-42e6-b31a-263b5533d60b)
+
+Later we can fix this.we will add a user, with less permissions. and remove the any.
 
 
 
