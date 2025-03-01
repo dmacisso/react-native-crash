@@ -74,7 +74,7 @@ Create a new project: Notes Project
 
 Project ID dvm-notes-project
 
-Pick a region: Only Franfourt was availible.
+Pick a region: Only Frankfourt was availible.
 
 Add a platform  => React Native
 
