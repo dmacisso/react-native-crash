@@ -71,5 +71,19 @@ If you want just one screen. There is not header to see what page you are on and
 I used my github account to login
 
 Create a new project: Notes Project
-Project ID notes-project
+
+Project ID dvm-notes-project
+
+Pick a region: Only Franfourt was availible.
+
+Add a platform  => React Native
+
+Package Name Registraion =>  for Android =>  Name: Notes App Android  Package Name: notes-app-android
+  npx expo install react-native-appwrite react-native-url-polyfill
+
+skip the initilize step for now, hit next..
+
+Go to dashboard and repeat for iOS..
+  npx expo install react-native-appwrite react-native-url-polyfill
+
 
