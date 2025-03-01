@@ -67,3 +67,9 @@ A stack of screens or pages. Used when you want multiple pages.. FIFO on top. Ma
 If you want just one screen. There is not header to see what page you are on and there is no back button.
 
 
+## Create an appwrite account on appwrite.io
+I used my github account to login
+
+Create a new project: Notes Project
+Project ID notes-project
+
