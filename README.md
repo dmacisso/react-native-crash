@@ -1,9 +1,9 @@
 # react-native-crash
 React Native Crash Course+ presented by Travesey Media
 
-[Youtube Line to Course](https://www.youtube.com/watch?v=bCpFbERgj7s)
+[Youtube Line to Course](https://www.youtube.com/watch?v=bCpFbERgj7s){:target="_blank"}
 
-[GitHub Link to source ](https://github.com/bradtraversy/notes-app/tree/main)
+[GitHub Link to source ](https://github.com/bradtraversy/notes-app/tree/main){:target="_blank"}
 
 
 The repository is setup to track my learning path for React Native.
