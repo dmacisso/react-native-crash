@@ -133,9 +133,9 @@ Install the SDK - allows us to communicate with Appwrite:
 Congfigure SDK
 1. Create a folder called 'services' at root of project.
 2. We'll have an appwrite config file and a db service to do CRUD with db. And a seperate notes service that uses the database service. (reusable, encapsulated code)
-   a. Database Service
-   b. Notes service
-   c. Authenticaion service.
+   <li>Database Service
+   <li>Notes service
+   <li>Authenticaion service.
 
 ![image](https://github.com/user-attachments/assets/e99b7970-44e9-42c5-9ef7-bc6e237f6463)
 
