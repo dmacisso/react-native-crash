@@ -142,5 +142,6 @@ Congfigure SDK
    <li>Notes service
    <li>Authenticaion service.
 
-![image](https://github.com/user-attachments/assets/e99b7970-44e9-42c5-9ef7-bc6e237f6463)
+
+![image](https://github.com/user-attachments/assets/e7914d07-6509-4cd6-b3a8-c56ea3c4d3ee)
 
