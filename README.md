@@ -1,7 +1,7 @@
 # react-native-crash
 React Native Crash Course+ presented by Travesey Media
 
-[Youtube Line to Course](https://www.youtube.com/watch?v=bCpFbERgj7s)
+[Youtube Link to Course](https://www.youtube.com/watch?v=bCpFbERgj7s)
 
 [GitHub Link to source ](https://github.com/bradtraversy/notes-app/tree/main)
 
