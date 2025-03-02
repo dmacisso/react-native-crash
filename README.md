@@ -91,7 +91,7 @@ Go to dashboard and repeat for iOS..
 
 Create the databases
 
-From the Dashboard => databases => create database Name: NotesDB DatabseID: notes-app-db => Create
+From the Dashboard => databases => create database Name: NotesDB DatabseID: notes-aap-db => Create
 
 => Create collection: Name: notes Collection ID:  notes => create.
 
@@ -119,6 +119,15 @@ Go to collecion..  => settings. scroll to permissions.. click +   For now. selec
 Later we can fix this.we will add a user, with less permissions. and remove the any.
 
 
+You can add data to the collection by + create document
 
+![image](https://github.com/user-attachments/assets/dd0cf098-05ca-4e9b-8ab2-58ce01feed8e)
+
+Now integrate back end with React native app.
+
+
+Install the SDK:
+
+    npx expo install react-native-appwrite react-native-url-polyfill
 
 
