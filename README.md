@@ -84,12 +84,14 @@ Pick a region: Only Frankfourt was availible.
 Add a platform  => React Native
 
 Package Name Registraion =>  for Android =>  Name: Notes App Android  Package Name: notes-app-android
+Note: For android it is call 'package name'
   
     npx expo install react-native-appwrite react-native-url-polyfill
 
 skip the initilize step for now, hit next..
 
 Go to dashboard and repeat for iOS..
+Note: for iOS it is called 'bundle'
   
     npx expo install react-native-appwrite react-native-url-polyfill
 
