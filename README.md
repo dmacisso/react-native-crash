@@ -148,3 +148,6 @@ Congfigure SDK
 ![image](https://github.com/user-attachments/assets/e7914d07-6509-4cd6-b3a8-c56ea3c4d3ee)
 
 Flow is database service, notes service, then component stuff..
+
+useRef() Hook:
+It is commonly used to access or hold a reference to a DOM element, store previous values, or manage any mutable value that needs to persist between renders.
