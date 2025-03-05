@@ -3,7 +3,7 @@ React Native Crash Course+ presented by Travesey Media
 
 [Youtube Link to Course](https://www.youtube.com/watch?v=bCpFbERgj7s)
 
-[GitHub Link to source ](https://github.com/bradtraversy/notes-app/tree/main)
+[GitHub Link to course source code ](https://github.com/bradtraversy/notes-app/tree/main)
 
 
 The repository is setup to track my learning path for React Native.
