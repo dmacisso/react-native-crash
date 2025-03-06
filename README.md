@@ -133,11 +133,11 @@ You can add data to the collection by + create document
 Now integrate back end with React native app.
 
 
-Install the SDK - allows us to communicate with Appwrite:
+Install the SDK(software development kit) - allows us to communicate with Appwrite:
 
     npx expo install react-native-appwrite react-native-url-polyfill
 
-Congfigure SDK
+Congfigure SDK (software development kit)
 1. Create a folder called 'services' at root of project.
 2. We'll have an appwrite config file and a db service to do CRUD with db. And a seperate notes service that uses the database service. (reusable, encapsulated code)
    <li>Database Service
