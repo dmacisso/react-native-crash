@@ -154,3 +154,9 @@ Flow is database service, notes service, then component stuff..
 
 useRef() Hook:
 It is commonly used to access or hold a reference to a DOM element, store previous values, or manage any mutable value that needs to persist between renders.
+
+after complete CRUD is acheived, authentication is next.
+
+In the appwrite database. Go to the collection. In the settings tab. then permssions. Delete the 'any' role. Add an "users" role set to CRUD. Hit thr "Update" button.
+
+
