@@ -160,4 +160,15 @@ after complete CRUD is acheived, authentication is next.
 In the appwrite database. Go to the collection. In the settings tab. => then permssions. Delete the 'any' role. 
 Next, Add an "users" role set to CRUD. Hit thr "Update" button. This means only an authenticated user can access the information.
 
+### order of authentication configuration 
+1. in the appwrite.js config a few lines
+2. create an auth service will have functions to:
+ 1. Login
+ 2. Register
+ 3. Check the user
+ 4. Logout
+    These will interact with appwrite through the account object.
+3. Create an auth context using the react built in Context API to manage the auth state and  provide (send it down) it to the entire app
+4. Auth screen with forms to register and login a user.  These forms will interact with the functions that are in the auth context and the auth context functions will interact with the auth service.
+   Configure such that If user goes to notes page and you are not logged in, user gets redirect to the login page.
 
