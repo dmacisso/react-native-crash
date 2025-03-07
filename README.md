@@ -157,6 +157,6 @@ It is commonly used to access or hold a reference to a DOM element, store previo
 
 after complete CRUD is acheived, authentication is next.
 
-In the appwrite database. Go to the collection. In the settings tab. then permssions. Delete the 'any' role. Add an "users" role set to CRUD. Hit thr "Update" button.
+In the appwrite database. Go to the collection. In the settings tab. then permssions. Delete the 'any' role. Add an "users" role set to CRUD. Hit thr "Update" button.  This means only an authenticated user can access the information.
 
 
