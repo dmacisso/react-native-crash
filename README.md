@@ -170,5 +170,5 @@ Next, Add an "users" role set to CRUD. Hit thr "Update" button. This means only 
     These will interact with appwrite through the account object.
 3. Create an auth context using the react built in Context API to manage the auth state and  provide (send it down) it to the entire app
 4. Auth screen with forms to register and login a user.  These forms will interact with the functions that are in the auth context and the auth context functions will interact with the auth service.
-   Configure such that If user goes to notes page and you are not logged in, user gets redirect to the login page.
+   App will be configured such that If user goes to notes page and you are not logged in, user gets redirect to the login page.
 
