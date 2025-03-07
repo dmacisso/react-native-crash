@@ -162,7 +162,12 @@ Next, Add an "users" role set to CRUD. Hit thr "Update" button. This means only 
 
 ### order of authentication configuration 
 1. in the appwrite.js config a few lines
-2. create an auth service will have functions to:
+
+     //* initialize the account
+    const account = new Account(client)
+    export { database, config, client, account };
+
+3. create an auth service will have functions to:
  1. Login
  2. Register
  3. Check the user
