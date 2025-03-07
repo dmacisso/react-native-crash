@@ -9,7 +9,7 @@ React Native Crash Course+ presented by Travesey Media
 
 
 ### This repository README.md tracks my learning path for React Native. Below are slides and notes taken from the Travesy Media course.
-<ul></ul>
+<u>
 
 ![image](https://github.com/user-attachments/assets/97ed8aaa-74dd-4106-ba82-78b72924d8c4)
 
