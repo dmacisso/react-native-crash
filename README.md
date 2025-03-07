@@ -8,7 +8,7 @@ React Native Crash Course+ presented by Travesey Media
 [GitHub Link to my note-app repository](https://github.com/dmacisso/notes-app)
 
 
-The repository is setup to track my learning path for React Native.
+The repository is setup to track my learning path for React Native. Below are slides and notes taken from the Travesy Media course.
 
 ![image](https://github.com/user-attachments/assets/97ed8aaa-74dd-4106-ba82-78b72924d8c4)
 
