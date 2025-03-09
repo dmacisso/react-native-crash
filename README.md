@@ -177,6 +177,9 @@ Next, Add an "users" role set to CRUD. Hit thr "Update" button. This means only 
 3. Create an auth context using the react built in Context API to manage the auth state and  provide (send it down) it to the entire app
 
 ## Use Context API - auth context to manage global state
+## create a context folder at the project root, and a file AuthContext.js
+![image](https://github.com/user-attachments/assets/eb808421-4983-4930-b3ca-9e4f1482414e)
+
 In context/AuthContext, import the function createContext and the hooks, useContext, useState (to manage global state) and useEffect (to check for the user whenever the page loads).
 Also bring in authService from the services folder.
 ```
