@@ -194,10 +194,10 @@ import {authService} from '../services/authService'
    2. In the app/notes/index.js, you will need to have the "useRouter" hook from 'expo-router' 
       ```bash
      //* needed for for redirecting to different pages in the stack.
-import { userRouter } from 'expo-router';
+     import { userRouter } from 'expo-router';
 
-//* needed to import the useAuth hook to check for login
-import { useAuth } from '@/contexts/AuthContext';
+    //* needed to import the useAuth hook to check for login
+    import { useAuth } from '@/contexts/AuthContext';
      
-      ```
+    ```
 
