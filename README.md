@@ -192,12 +192,12 @@ import {authService} from '../services/authService'
    App will be configured such that If user goes to notes page and you are not logged in, user gets redirect to the login page.
    1. Under app create foledr call 'auth'  app/auth with custom _layout.jsx and index.jsx
    2. In the app/notes/index.js, you will need to have the "useRouter" hook from 'expo-router' 
-      ```bash
      //* needed for for redirecting to different pages in the stack.
+      ```bash
      import { userRouter } from 'expo-router';
-
-    //* needed to import the useAuth hook to check for login
+```
+    //*  needed to import the useAuth hook to check for login
+```bash
     import { useAuth } from '@/contexts/AuthContext';
-     
-    ```
+```
 
