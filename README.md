@@ -191,9 +191,13 @@ import {authService} from '../services/authService'
 4. Auth screen with forms to register and login a user.  These forms will interact with the functions that are in the auth context and the auth context functions will interact with the auth service.
    App will be configured such that If user goes to notes page and you are not logged in, user gets redirect to the login page.
    1. Under app create foledr call 'auth'  app/auth with custom _layout.jsx and index.jsx
-   2. In the app/notes/index.js, you will need to have the "useRouter" from 'expo-router' for redirecting to different pages in the stack.
+   2. In the app/notes/index.js, you will need to have the "useRouter" hook from 'expo-router' 
       ```bash
-      import { userRouter} from 'expo-router'
+     //* needed for for redirecting to different pages in the stack.
+import { userRouter } from 'expo-router';
+
+//* needed to import the useAuth hook to check for login
+import { useAuth } from '@/contexts/AuthContext';
      
       ```
 
