@@ -196,7 +196,7 @@ import {authService} from '../services/authService'
     //* needed for for redirecting to different pages in the stack.
     import { userRouter } from 'expo-router';
     //*  needed to import the useAuth hook to check for login
-    import { useAuth } from '@/contexts/AuthContext';
+    import { useAuth } from '@/context/AuthContext';
     ```
 
 Create a Login page that will  interact with the context functions that interacts with the service, that interacts with the appwrite SDK 
@@ -206,7 +206,7 @@ After the Register/Login form display is set up, need to make it funcion.
 Bring in useRouter and useAuth()  hooks
 ```
     import {userRouter} from 'expo-router'
-    import { useAuth } from '@/contexts/AuthContext';
+    import { useAuth } from '@/context/AuthContext';
 ```
 
 
