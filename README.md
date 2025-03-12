@@ -208,8 +208,9 @@ Bring in useRouter and useAuth()  hooks
     import {userRouter} from 'expo-router'
     import { useAuth } from '@/context/AuthContext';
 ```
-```const AuthScreen = () => {
-  const { login, register } = useAuth(); //* login and register are provided by the auth context
+```
+const AuthScreen = () => {
+  const { login, register } = useAuth(); //* login and register are provided to the app component by the auth context
 ```
 
 
