@@ -202,3 +202,11 @@ import {authService} from '../services/authService'
 Create a Login page that will  interact with the context functions that interacts with the service, that interacts with the appwrite SDK 
 The page contains a Login or Register form depending a piece of state called 'isRegistering'
 
+After the Register/Login form display is set up, need to make it funcion.
+Bring in useRouter and useAuth()  hooks
+```
+    import {userRouter} from 'expo-router'
+    import { useAuth } from '@/contexts/AuthContext';
+```
+
+
