@@ -213,4 +213,40 @@ const AuthScreen = () => {
   const { login, register } = useAuth(); //* login and register are provided to the app component by the auth context
 ```
 
+## Building the app for deployment
+Can publish it to app store or google play store need a devloper account 
+Can use expos build service to build for iOS and Android
+Can download or create an APK  or an IPA file, and you can install it on your device or use within an emulatore.
+The EAS CLI makes it easy,
+You need an expo.dev account.
+```
+    npm i -g eas-cli
+    eas login
+
+ eas login
+
+Log in to EAS with email or username (exit and run eas login --help to see other login options)
+√ Email or username ... dmacisso
+√ Password ... ****************
+Logged in
+eas init
+
+? Would you like to create a project for @dmacisso/notes-app? » (Y/n)
+
+✔ Created @dmacisso/notes-app: https://expo.dev/accounts/dmacisso/projects/notes-app
+√ Project successfully linked (ID: 3be3a6c7-4c71-4f8c-83df-5edc28869ff9) (modified app.json)
+
+
+```
+The project is at in your accout 
+https://expo.dev
+
+```
+eas build --platform ios
+What would you like your iOS bundle identifier to be? » com.dmacisso.notesapp
+ iOS app only uses standard/exempt encryption? Learn more: https://developer.apple.com/documentation/Security/complying-with-encryption-export-regulations » (Y/n) 
+
+
+
+
 
