@@ -213,6 +213,14 @@ const AuthScreen = () => {
   const { login, register } = useAuth(); //* login and register are provided to the app component by the auth context
 ```
 
+## In order to associate a note to a user, need to add a user_id attribute to the notes collection 
+1. First, remove all the notes documents.
+2. Then +Create attribute called user_id as string, required. as such:
+
+   ![image](https://github.com/user-attachments/assets/03cc1d98-a641-4946-b9dc-a575a26dc9cd)
+
+   
+
 ## Building the app for deployment
 Can publish it to app store or google play store need a devloper account 
 Can use expos build service to build for iOS and Android
