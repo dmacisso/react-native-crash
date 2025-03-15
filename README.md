@@ -222,10 +222,11 @@ const AuthScreen = () => {
 3. in services/notesService.js, 
    ```bash
    import { ID, Query } from 'react-native-appwrite';
-  ```
+   ```
+
 
 4. modify the getNotes as such
-  ```bash
+   ```bash
    async getNotes(userId) {
     if (!userId) {
       console.error('Error: Missing userId in getNotes()');
@@ -234,7 +235,7 @@ const AuthScreen = () => {
         error: 'User ID is missing',
       };
     }
- ```
+   ```
 
 
    
@@ -249,18 +250,18 @@ You need an expo.dev account.
     npm i -g eas-cli
     eas login
 
- eas login
+     eas login
 
-Log in to EAS with email or username (exit and run eas login --help to see other login options)
-√ Email or username ... dmacisso
-√ Password ... ****************
-Logged in
-eas init
+    Log in to EAS with email or username (exit and run eas login --help to see other login options)
+    √ Email or username ... dmacisso
+    √ Password ... ****************
+    Logged in
+    eas init
 
-? Would you like to create a project for @dmacisso/notes-app? » (Y/n)
+    ? Would you like to create a project for @dmacisso/notes-app? » (Y/n)
 
-✔ Created @dmacisso/notes-app: https://expo.dev/accounts/dmacisso/projects/notes-app
-√ Project successfully linked (ID: 3be3a6c7-4c71-4f8c-83df-5edc28869ff9) (modified app.json)
+    ✔ Created @dmacisso/notes-app: https://expo.dev/accounts/dmacisso/projects/notes-app
+    √ Project successfully linked (ID: 3be3a6c7-4c71-4f8c-83df-5edc28869ff9) (modified app.json)
 
 
 
