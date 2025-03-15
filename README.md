@@ -225,7 +225,7 @@ const AuthScreen = () => {
   ```
 
 4. modify the getNotes as such
-  
+  ```bash
    async getNotes(userId) {
     if (!userId) {
       console.error('Error: Missing userId in getNotes()');
@@ -234,7 +234,7 @@ const AuthScreen = () => {
         error: 'User ID is missing',
       };
     }
- 
+ ```
 
 
    
@@ -245,7 +245,7 @@ Can use expos build service to build for iOS and Android
 Can download or create an APK  or an IPA file, and you can install it on your device or use within an emulatore.
 The EAS CLI makes it easy,
 You need an expo.dev account.
-```
+
     npm i -g eas-cli
     eas login
 
@@ -263,11 +263,11 @@ eas init
 √ Project successfully linked (ID: 3be3a6c7-4c71-4f8c-83df-5edc28869ff9) (modified app.json)
 
 
-```
+
 The project is at in your accout 
 https://expo.dev
 
-```
+
 eas build --platform ios
 What would you like your iOS bundle identifier to be? » com.dmacisso.notesapp
  iOS app only uses standard/exempt encryption? Learn more: https://developer.apple.com/documentation/Security/complying-with-encryption-export-regulations » (Y/n) 
