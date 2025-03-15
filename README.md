@@ -223,9 +223,10 @@ const AuthScreen = () => {
    ```
    import { ID, Query } from 'react-native-appwrite';
   ```
+
 4. modify the getNotes as such
-```
- async getNotes(userId) {
+  ```
+   async getNotes(userId) {
     if (!userId) {
       console.error('Error: Missing userId in getNotes()');
       return {
@@ -233,8 +234,7 @@ const AuthScreen = () => {
         error: 'User ID is missing',
       };
     }
-
-```
+ ```
 
 
    
