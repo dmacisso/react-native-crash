@@ -235,6 +235,16 @@ const AuthScreen = () => {
         error: 'User ID is missing',
       };
     }
+   try {
+      const response = await databaseService.listDocuments(dbId, colId, [
+        Query.equal('user_id', userId),
+      ]);
+      return response;
+    } catch (error) {
+      console.log('Error fetching notes:', error.message);
+      return { data: [], error: error.message };
+    }
+  },
    ```
 
 
