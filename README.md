@@ -219,6 +219,24 @@ const AuthScreen = () => {
 
    ![image](https://github.com/user-attachments/assets/03cc1d98-a641-4946-b9dc-a575a26dc9cd)
 
+3. in services/notesService.js, 
+   ```
+   import { ID, Query } from 'react-native-appwrite';
+  ```
+4. modify the getNotes as such
+```
+ async getNotes(userId) {
+    if (!userId) {
+      console.error('Error: Missing userId in getNotes()');
+      return {
+        data: [],
+        error: 'User ID is missing',
+      };
+    }
+
+```
+
+
    
 
 ## Building the app for deployment
